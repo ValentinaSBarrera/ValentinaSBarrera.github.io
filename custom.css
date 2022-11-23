@@ -1,0 +1,104 @@
+html, body {
+    background-color: black;
+}
+
+.btndb {
+    margin-top: 5%;
+    width: 90%;
+    height: 3rem;
+    background-color: rgb(34, 33, 33);
+    color: rgb(6, 129, 237);
+    border: solid 1px aliceblue;
+    border-radius: 5px;
+}
+.btnDbClicked{
+    margin-top: 5%;
+    width: 90%;
+    height: 3rem;
+    background-color: rgb(6, 129, 237);
+    color: rgb(34, 33, 33);
+    border: solid 1px aliceblue;
+    border-radius: 5px;
+}
+.btnnrgy {
+    margin-top: 5%;
+    width: 90%;
+    height: 3rem;
+    background-color: rgb(34, 33, 33);
+    color: rgb(2, 206, 29);
+    border: solid 1px aliceblue;
+    border-radius: 5px;
+}
+
+.btnNrgyClicked {
+    margin-top: 5%;
+    width: 90%;
+    height: 3rem;
+    background-color: rgb(10, 218, 38);
+    color: rgb(34, 33, 33);
+    border: solid 1px aliceblue;
+    border-radius: 5px;
+}
+.btndnce {
+    margin-top: 5%;
+    width: 90%;
+    height: 3rem;
+    background-color: rgb(34, 33, 33);
+    color: #27aab0;
+    border: solid 1px aliceblue;
+    border-radius: 5px;
+}
+.btnDnceClicked {
+    margin-top: 5%;
+    width: 90%;
+    height: 3rem;
+    background-color: #27aab0;
+    color: rgb(34, 33, 33);
+    border: solid 1px aliceblue;
+    border-radius: 5px;
+}
+.btnsearch {
+    margin-top: 5%;
+    width: 90%;
+    height: 3rem;
+    background-color: rgb(151, 183, 185);
+    color: #000000;
+    border: solid 1px rgb(151, 183, 185);;
+    border-radius: 5px;
+}
+.myViz{
+width: fit-content;
+}
+
+.menu{
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+.btn-ctm {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+.bg{
+    background-color: black;
+    color: white;
+}
+.text {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+.logo {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+hr{
+    background-color: aliceblue;
+}
