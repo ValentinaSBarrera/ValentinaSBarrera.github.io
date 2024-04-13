@@ -97,6 +97,7 @@ const TextLoop = styled.div`
   gap: 12px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
+  text-align: center; /* Añadir alineación centrada */
 
   @media (max-width: 960px) {
     text-align: center;
@@ -109,6 +110,7 @@ const TextLoop = styled.div`
   }
 `;
 
+
 const Span = styled.div`
   cursor: pointer;
   color: ${({ theme }) => theme.primary};
@@ -119,6 +121,7 @@ const SubTitle = styled.div`
   line-height: 32px;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.text_primary + 95};
+  
 
   @media (max-width: 960px) {
     text-align: center;
