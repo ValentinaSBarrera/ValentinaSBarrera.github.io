@@ -99,8 +99,10 @@ const TextLoop = styled.div`
   line-height: 68px;
   text-align: center; /* Añadir alineación centrada */
 
-  @media (max-width: 960px) {
-    text-align: center;
+  @media (max-width: 960px) and (min-width: 640px) {
+    .TextLoop {
+      text-align: center;
+    }
   }
 
   @media (max-width: 960px) {
