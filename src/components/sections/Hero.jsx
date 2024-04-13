@@ -97,12 +97,10 @@ const TextLoop = styled.div`
   gap: 12px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
-  text-align: center; /* Añadir alineación centrada */
 
-  @media (max-width: 960px) and (min-width: 640px) {
-    .HeroInnerContainer {
-      align-items: center;
-    }
+  @media (max-width: 960px) {
+    text-align: center;
+    justify-content: center;
   }
 
   @media (max-width: 960px) {
@@ -111,7 +109,6 @@ const TextLoop = styled.div`
     margin-bottom: 16px;
   }
 `;
-
 
 const Span = styled.div`
   cursor: pointer;
@@ -123,7 +120,6 @@ const SubTitle = styled.div`
   line-height: 32px;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.text_primary + 95};
-  
 
   @media (max-width: 960px) {
     text-align: center;
@@ -167,18 +163,19 @@ const ResumeButton = styled.a`
   font-weight: 600;
   font-size: 20px;
 
-  &:hover {
-    transform: scale(1.05);
+     &:hover {
+        transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    box-shadow: 20px 20px 60px #1F2634,
+    box-shadow:  20px 20px 60px #1F2634,
     filter: brightness(1);
-  }
-
-  @media (max-width: 640px) {
-    padding: 12px 0;
-    font-size: 18px;
-  }
-  color: white;
+    }    
+    
+    
+    @media (max-width: 640px) {
+        padding: 12px 0;
+        font-size: 18px;
+    } 
+    color: white;
 `;
 
 const Img = styled.img`
@@ -218,6 +215,7 @@ const HeroBg = styled.div`
     padding: 0 0px;
   }
 `;
+
 
 const Hero = ({ language }) => {
   // Selecciona los datos según el idioma
