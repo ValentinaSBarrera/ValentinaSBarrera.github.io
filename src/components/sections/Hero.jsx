@@ -100,8 +100,8 @@ const TextLoop = styled.div`
   text-align: center; /* Añadir alineación centrada */
 
   @media (max-width: 960px) and (min-width: 640px) {
-    .TextLoop {
-      text-align: center;
+    .HeroInnerContainer {
+      align-items: center;
     }
   }
 
