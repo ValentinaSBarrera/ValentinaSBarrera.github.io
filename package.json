@@ -1,7 +1,7 @@
 {
   "name": "valentina-sbarrera-portfolio-website",
   "version": "0.1.1",
-  "homepage": "https://valentinasbarrera.com/",
+  "homepage": "https://valentinasbarrera.github.io/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
